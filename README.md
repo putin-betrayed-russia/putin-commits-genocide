@@ -1,3 +1,5 @@
+        https://putin-betrayed-russia.github.io/putin-commits-genocide/
+
         English version
         The "official" news in the Russian Federation is mostly fake and we believe it is
             better to shut them down and let people switch to trustful news.
